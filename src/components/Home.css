@@ -129,7 +129,7 @@
     width: 90vw;
   }
   .intro-content {
-    font-size: 0.9rem;
+    font-size: 1.2rem;
     padding: 0.3rem;
     width: 90vw;
   }
@@ -141,11 +141,17 @@
   .intro-content img {
     width: 400px;
   }
+  .navbar-heading {
+    padding: 1rem 2rem 1rem 2.2rem;
+  }
 }
 @media only screen and (max-width: 526px) {
   #button {
     margin: 0.5rem 0.5rem;
     padding: 0.5rem 0.5rem;
+  }
+  .navbar-heading {
+    padding: 1rem 2rem 1rem 1.2rem;
   }
 }
 @media only screen and (max-width: 410px) {
