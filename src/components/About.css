@@ -1,0 +1,27 @@
+:root {
+    --highlight-color: rgba(2, 2, 88, 0.916);
+    --textH-color: rgb(46, 157, 231);
+    /* --sea-color:rgb(210, 237, 237); */
+    --sea-color: rgb(219, 221, 232);
+  }
+.about{
+    border-top: 1px solid black;
+}
+.head-about{
+    /* border: 1px solid red; */
+    max-width: 90vw;
+    height: auto;
+    margin: auto;
+    text-align: center;
+    padding: 0.1rem 0;
+    background-color: var(--highlight-color);
+    color: white;
+    border-radius: 0 50px 0 50px;
+    margin-top: 4px;
+}
+.head-about h1{
+    padding: 0.4rem 0;
+}
+.about-content{
+    text-align: center;
+}
